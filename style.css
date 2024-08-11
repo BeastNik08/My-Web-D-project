@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url('../Images/usimg.jpg');
+    background-size: cover;
+    background-position: 0rem -3rem;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+/* Login & Sign UP Buttons */
+.login1,.login2{
+    width:12rem;
+    height: 4rem;
+    position: relative;
+    left: 100rem;
+    margin: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: .1rem solid black ;
+    font-size: 1.7rem;
+    font-weight: 800;
+    text-shadow: .1rem .1rem .1rem grey  ;
+    border-radius: 1rem;
+    background-color: rgb(252, 87, 27);
+    color:rgb(255, 255, 255)   ;
+}
+
+/* Button Hover */
+.login1:hover,.login2:hover{
+    cursor: pointer;
+    transition: all .7s ease-in-out .1s;
+    transform:scale(1.2);
+    background-color: rgb(243, 58, 58);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: .1rem solid yellow;
+}
+
+/* Resturant Name & Moto */
+.title{
+    position: relative;
+    left:60rem;
+    top:9rem;
+    width:11rem;
+    height:11rem;
+    border-radius: 50%;
+    opacity: .98;
+    border:.4rem solid rgb(255, 223, 44);
+}
+h1,h5{
+position: relative;
+bottom:16rem;
+left:3rem;
+ font-family: 'Abril Fatface', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'Libre Franklin', sans-serif;
+}
+h1{
+    font-size: 5rem;
+    font-weight: bold;
+    color:rgba(255, 255, 255, 0.877);
+    text-shadow: 0.5rem 0.5rem 0.5rem rgba(255, 255, 255, 0.71);
+}
+h5{
+    font-size: 2.5rem;
+    margin: 1.5rem;
+    color:rgb(242, 76, 43);
+    text-shadow: .2rem .2rem .2rem rgb(168, 168, 168);
+}
+
+/* Statements */
+.text{
+    position: relative;
+    left:33rem;
+    bottom:-2rem;
+    width:50%;
+    height:11rem;
+    padding: 1rem;
+    border:.2rem solid rgb(255, 229, 80);
+    border-radius: 1.4rem;
+    color:rgb(243, 252, 211);
+    font-family: 'Kalam', cursive;;
+    background-color: rgba(43, 34, 34, 0.482);
+    font-size: 2rem;
+    font-weight: 500;
+}
+.text:hover{
+    cursor:none;
+    pointer-events: none;
+}
+
+/* order Button */
+.order{
+    width:18rem;
+    height: 9rem;
+    border: .2rem solid black;
+    border-radius: 30rem;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    word-spacing: .5rem;
+    text-shadow: .2rem .2rem .2rem black;
+    color:rgb(255, 255, 255);
+    background-color: rgb(185, 43, 14);
+    position: relative;
+    left:85rem;
+    top:6rem;
+}
+.order:hover{
+    cursor: pointer;
+    transition: all 0.9s ease-in-out 0.1s;
+    transform: scale(1.2);
+    background-color: rgb(190, 20, 20);
+    border: .2rem solid yellow;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Address & Location */
+h4{
+    font-size: 2.6rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color:rgb(242, 76, 43);
+    text-shadow: .2rem .2rem .2rem rgb(168, 168, 168);
+    margin-bottom: .6rem;
+    position: relative;
+    top:-2rem;
+    left:6.7rem;
+}
+p{
+    font-size: 2.4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-shadow: .2rem .2rem .2rem black;
+    color:rgb(255, 255, 255);
+    position: relative;
+    top:-1.4rem;
+    left:6.5rem;
+    line-height: 3.8rem;
+}
+.clock {
+    position: fixed;
+    bottom: 2rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    z-index: 1000;
+}
+

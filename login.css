@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(../Images/new_login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:0px -110px;
+}
+/* sign up BOX */
+.sign{
+    position: relative;
+    top:80px;
+    left:500px;
+    z-index: 2;
+    width:400px;
+    height: 560px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: rgba(107, 63, 32, 0.484);
+}
+/* Heading */
+.title{
+    position: relative;
+    left:110px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 1px  rgb(27, 20, 20);
+    color:rgba(244, 222, 51, 0.87);
+    margin: 7px;
+    pointer-events: none;
+}
+/* Input details */
+.details{
+ display: flex;
+ flex-direction: column;
+ margin: 5px;
+ gap:10px;
+ width:330px;
+}
+input{
+    margin:10px;
+    width:300px;
+    height: 30px;
+    margin-left: 40px;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    padding: 7px;
+    background-color: rgba(112, 89, 50, 0.299);
+  
+}
+input[type="checkbox"]{
+    position: relative;
+    right:127px;
+    top:-54px;
+}
+/* terms & cond */
+.terms{
+    position: relative;
+    right:-90px;
+    top:5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    padding-top: 10px;
+    color: aliceblue;
+}
+/* Submit button */
+input[type="submit"]{
+    position: relative;
+    left:60px;
+    bottom:-10px;
+    width:220px;
+    height: 36px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px grey;
+    background-color: rgba(238, 210, 27, 0.758);
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: rgb(120, 199, 120);
+    border: none;
+    color:rgb(31, 45, 38);
+}
+input::placeholder{
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding-left: 10px;
+}
+/* Login side */
+#login{
+    position: relative;
+    top:30px;
+    left:110px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+#click{
+    text-decoration: none;
+    font-size: 27px;
+    color:rgb(30, 11, 239);
+}
+#click:hover{
+    width:60px;
+    height:20px;
+    background-color: rgb(187, 204, 214);
+    border-radius: 15px;
+}
+
